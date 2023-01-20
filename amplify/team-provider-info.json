@@ -1,0 +1,23 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-fifagenerator-staging-152924-authRole",
+      "UnauthRoleArn": "arn:aws:iam::820837343234:role/amplify-fifagenerator-staging-152924-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::820837343234:role/amplify-fifagenerator-staging-152924-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-fifagenerator-staging-152924-deployment",
+      "UnauthRoleName": "amplify-fifagenerator-staging-152924-unauthRole",
+      "StackName": "amplify-fifagenerator-staging-152924",
+      "StackId": "arn:aws:cloudformation:us-east-1:820837343234:stack/amplify-fifagenerator-staging-152924/b8d95cb0-967b-11ed-9ac2-0ee761bc40db",
+      "AmplifyAppId": "d36o09f3lzfyo1"
+    },
+    "categories": {
+      "auth": {
+        "fifagenerator": {}
+      },
+      "api": {
+        "fifagenerator": {}
+      }
+    }
+  }
+}
