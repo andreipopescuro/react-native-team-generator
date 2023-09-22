@@ -66,6 +66,9 @@ const Menu = ({ setUsertoggle, reloadMenu }) => {
   const handleNewGame = () => {
     RootNavigation.navigate("Home");
   };
+  console.log("hello world");
+
+  console.log(userdata);
   return (
     <SafeAreaView style={styles.menuContainer}>
       <View style={styles.logoutContainer}>

@@ -16,11 +16,12 @@ import Tournament from "./screens/Tournament";
 import Home from "./screens/Home";
 import Teams from "./screens/Teams";
 import { Amplify, Auth, Hub } from "aws-amplify";
-import awsmobile from "./src/aws-exports";
+import awsmobile from "./aws-exports";
 Amplify.configure(awsmobile);
 
 const App = () => {
   const [user, setUser] = useState(undefined);
+
   const [userToggle, setUsertoggle] = useState("");
   const checkUser = async () => {
     try {
@@ -32,6 +33,7 @@ const App = () => {
       setUser(null);
     }
   };
+
   useEffect(() => {
     console.log("app rendering");
     checkUser();
